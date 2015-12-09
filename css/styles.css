@@ -1,0 +1,106 @@
+
+/* Page Styles
+================================ */
+
+/* This includes the padding inside the total width */
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #F3F1ED;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Navbar layout
+========================= */
+
+nav {
+  /*min-height: 100px;*/
+  /*float: left;
+  width: 100%;
+  background: grey;*/
+  /*position: fixed;*/
+}
+
+.logo {
+  float:left;
+  background: lightgreen;
+}
+
+.nav {
+  float: right;
+}
+.nav li {
+  list-style: none;
+  float: left;
+  background: lightgreen;
+  padding-left: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+header {
+  height: 20px;
+}
+
+/* Main Content layout
+========================= */
+
+.primary {
+  /*background: lightblue;*/
+  width: 70%;
+}
+
+.second {
+  /*background: lightseagreen;*/
+  width: 30%;
+}
+
+.second li {
+  list-style: none;
+}
+
+.second ul {
+  padding: 0;
+}
+
+/* Images
+========================= */
+
+img {
+  width: 33.3%;
+  margin: 0;
+  float: left;
+}
+
+/* Column layout
+========================= */
+
+.col {
+  padding: 20px;
+  float: left;
+}
+
+
+
+ /* Float Clearfix
+========================= */
+.group::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Media Queries
+========================= */
