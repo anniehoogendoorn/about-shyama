@@ -56,16 +56,18 @@ nav {
 
 .logo {
   float:left;
-  background: lightgreen;
+  /*background: lightgreen;*/
+	padding-top: 20px;
 }
 
 .nav {
   float: right;
+	padding-top: 10px;
 }
 .nav li {
   list-style: none;
   float: left;
-  background: lightgreen;
+  /*background: lightgreen;*/
   padding-left: 15px;
   font-size: 18px;
   text-transform: uppercase;
@@ -88,7 +90,7 @@ header {
 
 .primary {
   /*background: lightblue;*/
-  max-width: 70%;
+  max-width: 75%;
 	margin-right: 30px;
 
 }
@@ -100,7 +102,7 @@ header {
 
 .second {
   /*background: lightseagreen;*/
-  width: 300px;
+  width: 250px;
 }
 
 .second li {
