@@ -15,11 +15,32 @@ body {
 
 body {
   background: #F3F1ED;
+	font-family: 'Hoefler Text A', 'Hoefler Text B', serif;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1.625em;
+	color: #505050;
+
 }
 
+h1, h2, h3, h4, h5, h6 {
+		color: #000;
+		font-weight: 400;
+		line-height: 1;
+		margin: 0 0 1em 0;
+		word-wrap: break-word;
+}
+
+
+
 .container {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
+}
+
+a {
+	color: #de795b;
+	text-decoration: none;
 }
 
 /* Navbar layout
@@ -57,14 +78,29 @@ header {
 /* Main Content layout
 ========================= */
 
+/*p {
+	font: 18px;
+}*/
+.content-row {
+	padding-top: 90px;
+	padding-bottom: 30px;
+}
+
 .primary {
   /*background: lightblue;*/
-  width: 70%;
+  max-width: 70%;
+	margin-right: 30px;
+
+}
+
+.primary h4 {
+	font-size: 150%;
+	line-height: 30px;
 }
 
 .second {
   /*background: lightseagreen;*/
-  width: 30%;
+  width: 300px;
 }
 
 .second li {
@@ -73,6 +109,15 @@ header {
 
 .second ul {
   padding: 0;
+}
+
+.second p {
+	/*display: inline-block;*/
+	font-style: italic;
+	padding: 0;
+	margin: 0;
+	line-height: 30px;
+	margin-bottom: -18px;
 }
 
 /* Images
@@ -89,7 +134,7 @@ img {
 
 .col {
   float: left;
-  padding-right: 20px;
+  /*padding-right: 20px;*/
 }
 
 
